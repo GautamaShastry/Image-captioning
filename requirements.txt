@@ -34,3 +34,4 @@ validators
 Werkzeug
 streamlit
 seaborn
+cv2

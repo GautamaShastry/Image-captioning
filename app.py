@@ -23,7 +23,7 @@ def load_models_and_tokenizer():
     feature_extractor = Model(inputs=mobilenet.inputs, outputs=mobilenet.layers[-2].output)
     
     # Load the trained LSTM model
-    model = tf.keras.models.load_model('model.h5')
+    model = tf.keras.models.load_model('model.keras')
     
     # Load the tokenizer
     with open('tokenizer.pkl', 'rb') as f:
